@@ -1,0 +1,36 @@
+﻿/// <summary>
+/// Permission Set ACADEMY SETUP PDA (ID 70100).
+/// </summary>
+permissionset 70100 "ACADEMY SETUP PDA"
+{
+    Assignable = true;
+    Caption = 'Prodware Academy Setup', Locked = true;
+    Permissions =
+                    tabledata "Certification PDA" = RIMD,
+                    tabledata "Certification Area PDA" = RIMD,
+                    tabledata "Certification Question PDA" = RIMD,
+                    tabledata "Certification Answer PDA" = RIMD,
+                    tabledata "Certification Exam PDA" = RIMD,
+                    tabledata "Certif. Exam Result PDA" = RIMD,
+                    tabledata "Activities Cue PDA" = RIMD,
+                    page "Certification List PDA" = X,
+                    page "Certification Card PDA" = X,
+                    page "Certification Areas PDA" = X,
+                    page "Certification Questions PDA" = X,
+                    page "Certification Answers PDA" = X,
+                    page "Certif. Answers Select. PDA" = X,
+                    page "Certif. Exam Wizard PDA" = X,
+                    page "Certification Exams PDA" = X,
+                    page "Headline RC Consultant PDA" = X,
+                    page "Consultant Activities PDA" = X,
+                    page "Consultant Role Center PDA" = X,
+                    page "Headline RC Developer PDA" = X,
+                    page "Developer Activities PDA" = X,
+                    page "Developer Role Center PDA" = X,
+                    report "Certif. Exam Result PDA" = X,
+                    report "Certificate PDA" = X,
+                    codeunit "Permission Mgt. PDA" = X,
+                    codeunit "Install Codeunit PDA" = X,
+                    codeunit "Data Upgrade PDA" = X,
+                    codeunit "Upgrade Tag Def PDA" = X;
+}

@@ -7,5 +7,65 @@
       "path": ".AL-Go"
     }
   ],
-  "settings": {}
+  "settings": {
+		"editor.suggestSelection": "first",
+		"al.enableCodeActions": true,
+        "al.packageCachePath": ".alpackages",
+		"al.compilationOptions": {
+			// "generateReportLayout": true,
+			// "parallel": true,
+			// "delayAfterLastDocumentChange": 800,
+			// "delayAfterLastProjectChange": 4000,
+			// "maxDegreeOfParallelism": 2			
+		},
+
+		"alOutline.codeCleanupActions": [
+			"ConvertObjectIdsToNames",
+			"FixIdentifiersCase",
+			"FixKeywordsCase",			
+			"AddMissingParentheses",
+			"RemoveBeginEnd",
+			"RemoveWithStatements",
+			"RemoveEmptyLines",
+			"AddApplicationAreas"
+		],
+
+		"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.ObjectNameSuffix": " PDA",
+		"CRS.RemoveSuffixFromFilename": true,
+		"CRS.OnSaveAlFileAction": "Rename",
+	
+        "todohighlight.isEnable": true,
+        "todohighlight.isCaseSensitive": false,
+        "todohighlight.include": [
+            "**/*.al",
+            "**/*.txt",
+            "**/*.ps1"
+		],
+		
+		"todo-tree.general.tags": [
+			"BUG",
+			"HACK",
+			"FIXME",
+			"TODO",
+			"IMPORTANT NOTE"
+		],
+		
+		"al-xml-doc.CheckObjectDocumentationInformationLevel": "Disabled",
+		"al-xml-doc.CheckProcedureDocumentationInformationLevel": "Disabled"		
+	},
+	
+	"extensions": {
+		"recommendations": [
+			"waldo.crs-al-language-extension",
+			"wayou.vscode-todo-highlight",
+			"ms-vscode.powershell",
+			"eamodio.gitlens",
+			"mhutchie.git-graph",
+			"gruntfuggly.todo-tree",
+			"andrzejzwierzchowski.al-code-outline"
+		]
+	}
 }

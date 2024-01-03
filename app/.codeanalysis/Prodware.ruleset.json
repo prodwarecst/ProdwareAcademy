@@ -1,6 +1,6 @@
 {
-    "name": "GTH RuleSet",
-    "description": "Customizations to the default Business Central RuleSet",
+    "name": "PDW Ruleset",
+    "description": "Customizations to the default Business Central Ruleset",
     "rules": [
         {
             "id": "AA0072",
