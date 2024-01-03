@@ -1,3 +1,6 @@
+/// <summary>
+/// Codeunit Integration Setup Test PDA (ID 70104).
+/// </summary>
 codeunit 70104 "Integration Setup Test PDA"
 {
     Access = Internal;
