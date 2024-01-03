@@ -1,20 +1,17 @@
+# AL Code Binary files
 *.app
-*.flf
-*.bclicense
-*.g.xlf
-.DS_Store
-Thumbs.db
-TestResults*.xml
-bcptTestResults*.json
-BuildOutput.txt
+
+# Cache Files
+**/.alcache/*
+**/.altemplates/*
+**/debug.log
+
+# Local VS Code Settings
+launch.json
 rad.json
-.output/
-.dependencies/
-.buildartifacts/
-.alpackages/
-.packages/
-.alcache/
-.altemplates/
-.snapshots/
-cache_*
-~$*
+
+# Local VS files
+/.vs/*
+
+# Local Scripts
+**/tools/local/*

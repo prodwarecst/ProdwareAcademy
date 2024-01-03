@@ -6,7 +6,7 @@ report 70100 "Certif. Exam Result PDA"
     Caption = 'Certification Exam Result';
     UsageCategory = None;
     DefaultLayout = RDLC;
-    RDLCLayout = 'src/000 Developer Certification/Certification Exam/Rep - Certif. Exam Result.rdlc';
+    RDLCLayout = 'src/000 Developer Certification/Certification Exam/CertifExamResult.rdlc';
 
     dataset
     {

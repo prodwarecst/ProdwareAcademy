@@ -6,7 +6,7 @@ report 70101 "Certificate PDA"
     Caption = 'Certificate';
     UsageCategory = None;
     DefaultLayout = RDLC;
-    RDLCLayout = 'src/000 Developer Certification/Certification Exam/Rep - Certificate.rdlc';
+    RDLCLayout = 'src/000 Developer Certification/Certification Exam/Certificate.rdlc';
 
     dataset
     {
