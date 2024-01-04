@@ -12,7 +12,7 @@ pageextension 70100 "Customer List PDA" extends "Customer List"
                 ApplicationArea = All;
                 Caption = 'API Export';
                 Image = Export;
-                ToolTip = 'Exports the customer to API';
+                ToolTip = 'Exports the customer to API (test simple TestField procedure)';
 
                 trigger OnAction()
                 var
@@ -26,7 +26,7 @@ pageextension 70100 "Customer List PDA" extends "Customer List"
                 ApplicationArea = All;
                 Caption = 'API Export Ext.';
                 Image = Export1099;
-                ToolTip = 'Exports the customer to API with extended credentials test';
+                ToolTip = 'Exports the customer to API (test ErrorInfo data type)';
 
                 trigger OnAction()
                 var
