@@ -1,10 +1,12 @@
-# AL-Go Per Tenant Extension Template
-This template repository can be used for managing AppSource Apps for Business Central.
+# Prodware Academy
+This repository can be used for presenting interesting features and tips in Business Central app development.
 
-Please go to https://aka.ms/AL-Go to learn more.
+The repository has been created via the AL-Go tool. The tool is available at https://aka.ms/AL-Go.
 
-## Contributing
+## 000 Developer Certification
 
-Please read [this](https://github.com/microsoft/AL-Go/blob/main/Scenarios/Contribute.md) description on how to contribute to AL-Go for GitHub.
+This app contains a set of tests that can be used to prepare for the Microsoft Dynamics 365 Business Central Developer Certification exam.
 
-We do not accept Pull Requests on the template repository directly.
+## 001 ErrorInfo
+
+This example demonstrates how to use the ErrorInfo data type to return error information from a function, especially the usage of AddNavigationAction procedure.
