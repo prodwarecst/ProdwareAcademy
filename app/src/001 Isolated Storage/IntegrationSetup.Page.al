@@ -24,16 +24,29 @@ page 70114 "Integration Setup PDA"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the API Endpoint Url field.';
                 }
-                field("API Username"; Rec."API Username")
+                field("API Username"; APIUsername)
                 {
                     ApplicationArea = All;
+                    Caption = 'API Username';
                     ToolTip = 'Specifies the value of the API Username field.';
+                    ExtendedDatatype = Masked;
+
+                    trigger OnValidate()
+                    begin
+                        IntegrationSetupTest.SetAPICredentials(APIUsername, APIPassword);
+                    end;
                 }
-                field("API Password"; Rec."API Password")
+                field("API Password"; APIPassword)
                 {
                     ApplicationArea = All;
+                    Caption = 'API Password';
                     ToolTip = 'Specifies the value of the API Password field.';
                     ExtendedDatatype = Masked;
+
+                    trigger OnValidate()
+                    begin
+                        IntegrationSetupTest.SetAPICredentials(APIUsername, APIPassword);
+                    end;
                 }
             }
         }
@@ -45,6 +58,21 @@ page 70114 "Integration Setup PDA"
         if not Rec.Get() then begin
             Rec.Init();
             Rec.Insert();
+        end;
+        IsCredentialsSet();
+    end;
+
+    var
+        IntegrationSetupTest: Codeunit "Integration Setup Test PDA";
+        [NonDebuggable]
+        APIUsername, APIPassword : Text;
+
+    [NonDebuggable]
+    local procedure IsCredentialsSet()
+    begin
+        if Rec."API Credentials Set" then begin
+            APIUsername := 'X';
+            APIPassword := 'X';
         end;
     end;
 }

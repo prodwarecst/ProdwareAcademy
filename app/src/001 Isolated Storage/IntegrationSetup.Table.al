@@ -18,13 +18,9 @@ table 70107 "Integration Setup PDA"
             Caption = 'API Endpoint Url';
             ExtendedDatatype = URL;
         }
-        field(20; "API Username"; Text[50])
+        field(20; "API Credentials Set"; Boolean)
         {
-            Caption = 'API Username';
-        }
-        field(30; "API Password"; Text[50])
-        {
-            Caption = 'API Password';
+            Caption = 'API Credentials Set';
         }
     }
 

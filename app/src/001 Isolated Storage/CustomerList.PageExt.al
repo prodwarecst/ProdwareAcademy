@@ -18,7 +18,7 @@ pageextension 70100 "Customer List PDA" extends "Customer List"
                 var
                     IntegrationSetupTest: Codeunit "Integration Setup Test PDA";
                 begin
-                    IntegrationSetupTest.TestAPICredentials();
+                    IntegrationSetupTest.TestAPIEndpointUrl();
                 end;
             }
             action("API Export Ext. PDA")
@@ -32,7 +32,7 @@ pageextension 70100 "Customer List PDA" extends "Customer List"
                 var
                     IntegrationSetupTest: Codeunit "Integration Setup Test PDA";
                 begin
-                    IntegrationSetupTest.TestAPICredentialsExt();
+                    IntegrationSetupTest.TestAPIEndpointUrlExt();
                 end;
             }
         }

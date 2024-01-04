@@ -233,35 +233,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1975288928 - Field 3922656238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Credentials Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field API Credentials Set - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1975288928 - Field 1565523364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>API Endpoint Url</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field API Endpoint Url - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1975288928 - Field 2818161561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>API Password</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field API Password - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1975288928 - Field 820243426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>API Username</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field API Username - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1975288928 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3849303774 - Method 3181432297 - NamedType 3926538231" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invalid API credentials.</source>
+        <trans-unit id="Codeunit 3849303774 - Method 3251563929 - NamedType 3667724807" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid API Endpoint Url.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Integration Setup Test PDA - Method TestAPICredentialsExt - NamedType APICredentialsErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Integration Setup Test PDA - Method TestAPIEndpointUrlExt - NamedType APIEndpointUrlErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3849303774 - Method 3181432297 - NamedType 2217831699" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3849303774 - Method 3251563929 - NamedType 2217831699" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Integration Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Integration Setup Test PDA - Method TestAPICredentialsExt - NamedType OpenSetupLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Integration Setup Test PDA - Method TestAPIEndpointUrlExt - NamedType OpenSetupLbl</note>
         </trans-unit>
         <trans-unit id="Page 3692321543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Certification Answers</source>
@@ -798,10 +793,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Integration Setup PDA - Control API Password - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1975288928 - Control 2818161561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Integration Setup PDA - Control API Password - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1975288928 - Control 820243426 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the API Username field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Integration Setup PDA - Control API Username - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1975288928 - Control 820243426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Username</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Integration Setup PDA - Control API Username - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1276561512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Certification Exam Result</source>
@@ -884,7 +889,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate PDA - ReportLabel LblVicePresident</note>
         </trans-unit>
         <trans-unit id="PageExtension 1809050749 - Action 20413634 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
-          <source>Exports the customer to API with extended credentials test</source>
+          <source>Exports the customer to API (test ErrorInfo data type)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List PDA - Action API Export Ext. PDA - Property ToolTip</note>
         </trans-unit>
@@ -894,7 +899,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List PDA - Action API Export Ext. PDA - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1809050749 - Action 2456344379 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
-          <source>Exports the customer to API</source>
+          <source>Exports the customer to API (test simple TestField procedure)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List PDA - Action API Export PDA - Property ToolTip</note>
         </trans-unit>
