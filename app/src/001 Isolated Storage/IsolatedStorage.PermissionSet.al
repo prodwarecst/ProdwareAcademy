@@ -1,7 +1,7 @@
 /// <summary>
-/// Permission Set ErrorInfo PDA (ID 70102).
+/// Permission Set Isolated Storage PDA (ID 70102).
 /// </summary>
-permissionset 70102 "ErrorInfo PDA"
+permissionset 70102 "Isolated Storage PDA"
 {
     Assignable = true;
     Permissions = tabledata "Integration Setup PDA" = RIMD,
