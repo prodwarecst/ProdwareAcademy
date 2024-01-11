@@ -1,39 +1,9 @@
 /// <summary>
-/// Codeunit Integration Setup Test PDA (ID 70104).
+/// Codeunit Integration Setup Mgt. PDA (ID 70104).
 /// </summary>
-codeunit 70104 "Integration Setup Test PDA"
+codeunit 70104 "Integration Setup Mgt. PDA"
 {
     Access = Internal;
-
-    /// <summary>
-    /// Tests API endpoint url from integration setup via simple TestField procedure.
-    /// </summary>
-    procedure TestAPIEndpointUrl()
-    var
-        IntegrationSetup: Record "Integration Setup PDA";
-    begin
-        IntegrationSetup.Get();
-        IntegrationSetup.TestField("API Endpoint Url");
-    end;
-
-    /// <summary>
-    /// Tests API endpoint url from integration setup via using ErrorInfo data type.
-    /// </summary>
-    procedure TestAPIEndpointUrlExt()
-    var
-        IntegrationSetup: Record "Integration Setup PDA";
-        ErrorInfoObject: ErrorInfo;
-        APIEndpointUrlErr: Label 'Invalid API Endpoint Url.';
-        OpenSetupLbl: Label 'Open Integration Setup';
-    begin
-        IntegrationSetup.Get();
-        if IntegrationSetup."API Endpoint Url" = '' then begin
-            ErrorInfoObject.Message := APIEndpointUrlErr;
-            ErrorInfoObject.PageNo := Page::"Integration Setup PDA";
-            ErrorInfoObject.AddNavigationAction(OpenSetupLbl);
-            Error(ErrorInfoObject);
-        end;
-    end;
 
     [NonDebuggable]
     /// <summary>

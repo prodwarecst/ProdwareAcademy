@@ -33,7 +33,7 @@ page 70114 "Integration Setup PDA"
 
                     trigger OnValidate()
                     begin
-                        IntegrationSetupTest.SetAPICredentials(APIUsername, APIPassword);
+                        IntegrationSetupMgt.SetAPICredentials(APIUsername, APIPassword);
                     end;
                 }
                 field("API Password"; APIPassword)
@@ -45,7 +45,7 @@ page 70114 "Integration Setup PDA"
 
                     trigger OnValidate()
                     begin
-                        IntegrationSetupTest.SetAPICredentials(APIUsername, APIPassword);
+                        IntegrationSetupMgt.SetAPICredentials(APIUsername, APIPassword);
                     end;
                 }
             }
@@ -63,7 +63,7 @@ page 70114 "Integration Setup PDA"
     end;
 
     var
-        IntegrationSetupTest: Codeunit "Integration Setup Test PDA";
+        IntegrationSetupMgt: Codeunit "Integration Setup Mgt. PDA";
         [NonDebuggable]
         APIUsername, APIPassword : Text;
 
