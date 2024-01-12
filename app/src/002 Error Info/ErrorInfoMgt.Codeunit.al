@@ -6,46 +6,45 @@ codeunit 70105 "Error Info Mgt. PDA"
     Access = Internal;
 
     /// <summary>
-    /// Tests API endpoint url from integration setup via simple TestField procedure.
+    /// Tests standard error for TestField procedure.
     /// </summary>
     procedure TestStandardError()
     var
-        IntegrationSetup: Record "Integration Setup PDA";
+        Customer: Record Customer;
     begin
-        IntegrationSetup.Get();
-        IntegrationSetup.TestField("API Endpoint Url");
+        Customer.Reset();
+        if Customer.FindSet() then
+            repeat
+                Customer.TestField(Blocked, "Customer Blocked"::" ");
+            until Customer.Next() = 0;
     end;
 
     [ErrorBehavior(ErrorBehavior::Collect)]
     /// <summary>
-    /// Tests collectible errors behavior.
+    /// Tests collectible errors behavior for TestField procedure.
     /// </summary>
     procedure TestCollectibleErrors()
     var
-        ErrorInfoObject: ErrorInfo;
-        i: Integer;
-        ErrorLbl: Label 'Error %1', Locked = true;
-        DetailedErrorLbl: Label 'Detailed error message %1', Locked = true;
+        Customer: Record Customer;
     begin
-        for i := 1 to 3 do begin
-            Clear(ErrorInfoObject);
-            ErrorInfoObject := ErrorInfo.Create(StrSubstNo(ErrorLbl, i));
-            ErrorInfoObject.DetailedMessage(StrSubstNo(DetailedErrorLbl, i));
-            ErrorInfoObject.Collectible(true);
-            Error(ErrorInfoObject);
-        end;
+        Customer.Reset();
+        if Customer.FindSet() then
+            repeat
+                Customer.TestField(Blocked, "Customer Blocked"::" ", ErrorInfo.Create());
+            until Customer.Next() = 0;
     end;
 
     /// <summary>
-    /// Tests API endpoint url from integration setup via using ErrorInfo data type.
+    /// Tests actionable errors with navigation action.
     /// </summary>
-    procedure TestErrorInfoNavigationAction()
+    procedure TestActionableErrorsNavigationAction()
     var
         IntegrationSetup: Record "Integration Setup PDA";
         ErrorInfoObject: ErrorInfo;
         APIEndpointUrlErr: Label 'Invalid API Endpoint Url.';
         OpenSetupLbl: Label 'Open Integration Setup';
     begin
+        Clear(ErrorInfoObject);
         IntegrationSetup.Get();
         if IntegrationSetup."API Endpoint Url" = '' then begin
             ErrorInfoObject.Message := APIEndpointUrlErr;
@@ -53,5 +52,41 @@ codeunit 70105 "Error Info Mgt. PDA"
             ErrorInfoObject.AddNavigationAction(OpenSetupLbl);
             Error(ErrorInfoObject);
         end;
+    end;
+
+    /// <summary>
+    /// Tests actionable errors with fix-it action.
+    /// </summary>
+    procedure TestActionableErrorsFixAction()
+    var
+        IntegrationSetup: Record "Integration Setup PDA";
+        ErrorInfoObject: ErrorInfo;
+        APIEndpointUrlErr: Label 'Invalid API Endpoint Url.';
+        APIEndpointUrlMustBeLbl: Label 'API Endpoint Url must be: %1', Comment = '%1=Correct Url';
+        APIEndpointUrlSetValueLbl: Label 'Set value to: %1', Comment = '%1=Correct Url';
+        APIEndpointUrlCorrectLbl: Label 'https://catfact.ninja/fact', Locked = true;
+    begin
+        Clear(ErrorInfoObject);
+        IntegrationSetup.Get();
+        if IntegrationSetup."API Endpoint Url" = '' then begin
+            ErrorInfoObject.Title := APIEndpointUrlErr;
+            ErrorInfoObject.Message := StrSubstNo(APIEndpointUrlMustBeLbl, APIEndpointUrlCorrectLbl);
+            ErrorInfoObject.AddAction(StrSubstNo(APIEndpointUrlSetValueLbl, APIEndpointUrlCorrectLbl), Codeunit::"Error Info Mgt. PDA", 'SetAPIEndpointUrl');
+            Error(ErrorInfoObject);
+        end;
+    end;
+
+    /// <summary>
+    /// Sets value for API Endpoint Url based on actionable error provided in TestActionableErrorsFixAction procedure.
+    /// </summary>
+    /// <param name="ErrorInfoObject">ErrorInfo.</param>
+    procedure SetAPIEndpointUrl(ErrorInfoObject: ErrorInfo)
+    var
+        IntegrationSetup: Record "Integration Setup PDA";
+        APIEndpointUrlCorrectLbl: Label 'https://catfact.ninja/fact', Locked = true;
+    begin
+        IntegrationSetup.Get();
+        IntegrationSetup."API Endpoint Url" := APIEndpointUrlCorrectLbl;
+        IntegrationSetup.Modify();
     end;
 }

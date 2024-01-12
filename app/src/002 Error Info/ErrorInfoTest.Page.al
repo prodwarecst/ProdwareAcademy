@@ -13,7 +13,7 @@ page 70115 "Error Info Test PDA"
     {
         area(Processing)
         {
-            action("Standard Error")
+            action(StandardError)
             {
                 ApplicationArea = All;
                 Caption = 'Standard Error';
@@ -27,7 +27,7 @@ page 70115 "Error Info Test PDA"
                     ErrorInfoMgt.TestStandardError();
                 end;
             }
-            action("Collectible Errors")
+            action(CollectibleErrors)
             {
                 ApplicationArea = All;
                 Caption = 'Collectible Errors';
@@ -41,19 +41,48 @@ page 70115 "Error Info Test PDA"
                     ErrorInfoMgt.TestCollectibleErrors();
                 end;
             }
-            action("Error Info Navigation Action")
+            action(ActionableErrorsNavigationAction)
             {
                 ApplicationArea = All;
-                Caption = 'Error Info Navigation Action';
+                Caption = 'Actionable Errors (Navigation Action)';
                 Image = TestFile;
-                ToolTip = 'Tests error info with navigation action.';
+                ToolTip = 'Tests actionable errors with navigation action.';
 
                 trigger OnAction()
                 var
                     ErrorInfoMgt: Codeunit "Error Info Mgt. PDA";
                 begin
-                    ErrorInfoMgt.TestErrorInfoNavigationAction();
+                    ErrorInfoMgt.TestActionableErrorsNavigationAction();
                 end;
+            }
+            action(ActionableErrorsFixAction)
+            {
+                ApplicationArea = All;
+                Caption = 'Actionable Errors (Fix Action)';
+                Image = TestFile;
+                ToolTip = 'Tests actionable errors with fix action.';
+
+                trigger OnAction()
+                var
+                    ErrorInfoMgt: Codeunit "Error Info Mgt. PDA";
+                begin
+                    ErrorInfoMgt.TestActionableErrorsFixAction();
+                end;
+            }
+        }
+        area(Promoted)
+        {
+            actionref(StandardError_Promoted; StandardError)
+            {
+            }
+            actionref(CollectibleErrors_Promoted; CollectibleErrors)
+            {
+            }
+            actionref(ActionableErrorsNavigationAction_Promoted; ActionableErrorsNavigationAction)
+            {
+            }
+            actionref(ActionableErrorsFixAction_Promoted; ActionableErrorsFixAction)
+            {
             }
         }
     }
