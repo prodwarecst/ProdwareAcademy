@@ -1,7 +1,7 @@
 /// <summary>
-/// Codeunit Error Info Mgt. PDA (ID 70105).
+/// Codeunit Error Handling Mgt. PDA (ID 70105).
 /// </summary>
-codeunit 70105 "Error Info Mgt. PDA"
+codeunit 70105 "Error Handling Mgt. PDA"
 {
     Access = Internal;
 
@@ -71,7 +71,7 @@ codeunit 70105 "Error Info Mgt. PDA"
         if IntegrationSetup."API Endpoint Url" = '' then begin
             ErrorInfoObject.Title := APIEndpointUrlErr;
             ErrorInfoObject.Message := StrSubstNo(APIEndpointUrlMustBeLbl, APIEndpointUrlCorrectLbl);
-            ErrorInfoObject.AddAction(StrSubstNo(APIEndpointUrlSetValueLbl, APIEndpointUrlCorrectLbl), Codeunit::"Error Info Mgt. PDA", 'SetAPIEndpointUrl');
+            ErrorInfoObject.AddAction(StrSubstNo(APIEndpointUrlSetValueLbl, APIEndpointUrlCorrectLbl), Codeunit::"Error Handling Mgt. PDA", 'SetAPIEndpointUrl');
             Error(ErrorInfoObject);
         end;
     end;

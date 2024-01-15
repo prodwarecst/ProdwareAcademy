@@ -23,75 +23,75 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3703786445 - Method 3274389988 - NamedType 3667724807" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2462330022 - Method 3274389988 - NamedType 3667724807" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invalid API Endpoint Url.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Info Mgt. PDA - Method TestActionableErrorsFixAction - NamedType APIEndpointUrlErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Mgt. PDA - Method TestActionableErrorsFixAction - NamedType APIEndpointUrlErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3703786445 - Method 3274389988 - NamedType 695525294" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2462330022 - Method 3274389988 - NamedType 695525294" size-unit="char" translate="yes" xml:space="preserve">
           <source>API Endpoint Url must be: %1</source>
           <note from="Developer" annotates="general" priority="2">%1=Correct Url</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Info Mgt. PDA - Method TestActionableErrorsFixAction - NamedType APIEndpointUrlMustBeLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Mgt. PDA - Method TestActionableErrorsFixAction - NamedType APIEndpointUrlMustBeLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3703786445 - Method 3274389988 - NamedType 3960317685" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2462330022 - Method 3274389988 - NamedType 3960317685" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set value to: %1</source>
           <note from="Developer" annotates="general" priority="2">%1=Correct Url</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Info Mgt. PDA - Method TestActionableErrorsFixAction - NamedType APIEndpointUrlSetValueLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Mgt. PDA - Method TestActionableErrorsFixAction - NamedType APIEndpointUrlSetValueLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3703786445 - Method 4123720503 - NamedType 3667724807" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2462330022 - Method 4123720503 - NamedType 3667724807" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invalid API Endpoint Url.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Info Mgt. PDA - Method TestActionableErrorsNavigationAction - NamedType APIEndpointUrlErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Mgt. PDA - Method TestActionableErrorsNavigationAction - NamedType APIEndpointUrlErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3703786445 - Method 4123720503 - NamedType 2217831699" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2462330022 - Method 4123720503 - NamedType 2217831699" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Integration Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Info Mgt. PDA - Method TestActionableErrorsNavigationAction - NamedType OpenSetupLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Mgt. PDA - Method TestActionableErrorsNavigationAction - NamedType OpenSetupLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Error Info Test</source>
+        <trans-unit id="Page 1604593232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Handling Test</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 118856234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 118856234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tests actionable errors with fix action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action ActionableErrorsFixAction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ActionableErrorsFixAction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 118856234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 118856234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Actionable Errors (Fix Action)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action ActionableErrorsFixAction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ActionableErrorsFixAction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 1641253157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 1641253157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tests actionable errors with navigation action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action ActionableErrorsNavigationAction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ActionableErrorsNavigationAction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 1641253157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 1641253157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Actionable Errors (Navigation Action)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action ActionableErrorsNavigationAction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ActionableErrorsNavigationAction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 886601297 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 886601297 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tests collectible errors.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action CollectibleErrors - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action CollectibleErrors - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 886601297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 886601297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Collectible Errors</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action CollectibleErrors - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action CollectibleErrors - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 2239563973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 2239563973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tests standard error.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action StandardError - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action StandardError - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3090547911 - Action 2239563973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1604593232 - Action 2239563973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Error</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Error Info Test PDA - Action StandardError - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action StandardError - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1975288928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Integration Setup</source>

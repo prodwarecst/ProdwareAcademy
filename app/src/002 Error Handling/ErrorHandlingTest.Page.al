@@ -1,9 +1,9 @@
 /// <summary>
-/// Page Error Info Test PDA (ID 70115).
+/// Page Error Handling Test PDA (ID 70115).
 /// </summary>
-page 70115 "Error Info Test PDA"
+page 70115 "Error Handling Test PDA"
 {
-    Caption = 'Error Info Test';
+    Caption = 'Error Handling Test';
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
@@ -22,9 +22,9 @@ page 70115 "Error Info Test PDA"
 
                 trigger OnAction()
                 var
-                    ErrorInfoMgt: Codeunit "Error Info Mgt. PDA";
+                    ErrorHandlingMgt: Codeunit "Error Handling Mgt. PDA";
                 begin
-                    ErrorInfoMgt.TestStandardError();
+                    ErrorHandlingMgt.TestStandardError();
                 end;
             }
             action(CollectibleErrors)
@@ -36,9 +36,9 @@ page 70115 "Error Info Test PDA"
 
                 trigger OnAction()
                 var
-                    ErrorInfoMgt: Codeunit "Error Info Mgt. PDA";
+                    ErrorHandlingMgt: Codeunit "Error Handling Mgt. PDA";
                 begin
-                    ErrorInfoMgt.TestCollectibleErrors();
+                    ErrorHandlingMgt.TestCollectibleErrors();
                 end;
             }
             action(ActionableErrorsNavigationAction)
@@ -50,9 +50,9 @@ page 70115 "Error Info Test PDA"
 
                 trigger OnAction()
                 var
-                    ErrorInfoMgt: Codeunit "Error Info Mgt. PDA";
+                    ErrorHandlingMgt: Codeunit "Error Handling Mgt. PDA";
                 begin
-                    ErrorInfoMgt.TestActionableErrorsNavigationAction();
+                    ErrorHandlingMgt.TestActionableErrorsNavigationAction();
                 end;
             }
             action(ActionableErrorsFixAction)
@@ -64,9 +64,9 @@ page 70115 "Error Info Test PDA"
 
                 trigger OnAction()
                 var
-                    ErrorInfoMgt: Codeunit "Error Info Mgt. PDA";
+                    ErrorHandlingMgt: Codeunit "Error Handling Mgt. PDA";
                 begin
-                    ErrorInfoMgt.TestActionableErrorsFixAction();
+                    ErrorHandlingMgt.TestActionableErrorsFixAction();
                 end;
             }
         }
