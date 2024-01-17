@@ -188,6 +188,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ErrorCallStack - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1604593232 - Action 3932308775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tests error message management feature.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ErrorMessageMgt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1604593232 - Action 3932308775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message Mgt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ErrorMessageMgt - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1604593232 - Action 2239563973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tests standard error.</source>
           <note from="Developer" annotates="general" priority="2"></note>

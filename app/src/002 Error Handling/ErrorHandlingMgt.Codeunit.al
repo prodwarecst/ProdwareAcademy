@@ -100,4 +100,17 @@ codeunit 70105 "Error Handling Mgt. PDA"
         if not Codeunit.Run(Codeunit::"Error Call Stack Test PDA") then
             ErrorHandlingLog.AddLogEntry();
     end;
+
+    /// <summary>
+    /// Tests error message management feature.
+    /// </summary>
+    procedure TestErrorMessageMgt()
+    var
+        ErrorMessageMgt: Codeunit "Error Message Management";
+        ErrorMessageHandler: Codeunit "Error Message Handler";
+    begin
+        ErrorMessageMgt.Activate(ErrorMessageHandler);
+        if not Codeunit.Run(Codeunit::"Error Call Stack Test PDA") then
+            ErrorMessageHandler.ShowErrors();
+    end;
 }

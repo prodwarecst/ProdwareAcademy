@@ -83,6 +83,20 @@ page 70115 "Error Handling Test PDA"
                     ErrorHandlingMgt.TestErrorCallStack();
                 end;
             }
+            action(ErrorMessageMgt)
+            {
+                ApplicationArea = All;
+                Caption = 'Error Message Mgt.';
+                Image = StepOver;
+                ToolTip = 'Tests error message management feature.';
+
+                trigger OnAction()
+                var
+                    ErrorHandlingMgt: Codeunit "Error Handling Mgt. PDA";
+                begin
+                    ErrorHandlingMgt.TestErrorMessageMgt();
+                end;
+            }
         }
         area(Navigation)
         {
@@ -110,6 +124,9 @@ page 70115 "Error Handling Test PDA"
             {
             }
             actionref(ErrorCallStack_Promoted; ErrorCallStack)
+            {
+            }
+            actionref(ErrorMessageMgt_Promoted; ErrorMessageMgt)
             {
             }
             actionref(ErrorHandlingLog_Promoted; ErrorHandlingLog)
