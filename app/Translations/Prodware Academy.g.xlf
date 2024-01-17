@@ -3,6 +3,46 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Prodware Academy">
     <body>
       <group id="body">
+        <trans-unit id="Table 237100514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Handling Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 237100514 - Method 748932884 - NamedType 628409503" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no error message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Method ShowErrorMessage - NamedType NoErrMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 237100514 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 237100514 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 237100514 - Field 3446276168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Call Stack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Field Error Call Stack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 237100514 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 237100514 - Field 3282519321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message Register Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Field Error Message Register Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 237100514 - Field 1230148255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Error Handling Log PDA - Field Time - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1975288928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Integration Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -48,10 +88,65 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Mgt. PDA - Method TestActionableErrorsNavigationAction - NamedType OpenSetupLbl</note>
         </trans-unit>
+        <trans-unit id="Page 1917345272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Handling Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the entry was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Control 2852966117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error message of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Control Error Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Control 1230148255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the time when the entry was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Control Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Action 3406973905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the call stack for the error that has stopped the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Action ShowErrorCallStack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Action 3406973905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error Call Stack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Action ShowErrorCallStack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Action 748932884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the error message that has stopped the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Action ShowErrorMessage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1917345272 - Action 748932884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Log Entries PDA - Action ShowErrorMessage - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1604593232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error Handling Test</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1604593232 - Action 1303677605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows error handling log entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ErrorHandlingLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1604593232 - Action 1303677605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Handling Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ErrorHandlingLog - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1604593232 - Action 118856234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tests actionable errors with fix action.</source>
@@ -82,6 +177,16 @@
           <source>Collectible Errors</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action CollectibleErrors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1604593232 - Action 1045363784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tests error call stack feature.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ErrorCallStack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1604593232 - Action 1045363784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Call Stack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Error Handling Test PDA - Action ErrorCallStack - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1604593232 - Action 2239563973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tests standard error.</source>

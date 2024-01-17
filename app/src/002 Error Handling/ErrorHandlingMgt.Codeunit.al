@@ -89,4 +89,15 @@ codeunit 70105 "Error Handling Mgt. PDA"
         IntegrationSetup."API Endpoint Url" := APIEndpointUrlCorrectLbl;
         IntegrationSetup.Modify();
     end;
+
+    /// <summary>
+    /// Tests error call stack feature.
+    /// </summary>
+    procedure TestErrorCallStack()
+    var
+        ErrorHandlingLog: Record "Error Handling Log PDA";
+    begin
+        if not Codeunit.Run(Codeunit::"Error Call Stack Test PDA") then
+            ErrorHandlingLog.AddLogEntry();
+    end;
 }

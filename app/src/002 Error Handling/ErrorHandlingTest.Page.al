@@ -69,6 +69,31 @@ page 70115 "Error Handling Test PDA"
                     ErrorHandlingMgt.TestActionableErrorsFixAction();
                 end;
             }
+            action(ErrorCallStack)
+            {
+                ApplicationArea = All;
+                Caption = 'Error Call Stack';
+                Image = StepInto;
+                ToolTip = 'Tests error call stack feature.';
+
+                trigger OnAction()
+                var
+                    ErrorHandlingMgt: Codeunit "Error Handling Mgt. PDA";
+                begin
+                    ErrorHandlingMgt.TestErrorCallStack();
+                end;
+            }
+        }
+        area(Navigation)
+        {
+            action(ErrorHandlingLog)
+            {
+                ApplicationArea = All;
+                Caption = 'Error Handling Log';
+                Image = Log;
+                ToolTip = 'Shows error handling log entries.';
+                RunObject = page "Error Handling Log Entries PDA";
+            }
         }
         area(Promoted)
         {
@@ -82,6 +107,12 @@ page 70115 "Error Handling Test PDA"
             {
             }
             actionref(ActionableErrorsFixAction_Promoted; ActionableErrorsFixAction)
+            {
+            }
+            actionref(ErrorCallStack_Promoted; ErrorCallStack)
+            {
+            }
+            actionref(ErrorHandlingLog_Promoted; ErrorHandlingLog)
             {
             }
         }
