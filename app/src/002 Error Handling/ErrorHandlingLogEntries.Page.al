@@ -8,6 +8,7 @@ page 70100 "Error Handling Log Entries PDA"
     UsageCategory = Lists;
     ApplicationArea = All;
     SourceTable = "Error Handling Log PDA";
+    SourceTableView = sorting("Entry No.") order(descending);
     Editable = false;
 
     layout
