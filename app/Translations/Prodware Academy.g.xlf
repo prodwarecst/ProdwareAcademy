@@ -63,6 +63,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3142563839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type Helper Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Type Helper Test PDA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3142563839 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Type Helper Test PDA - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3142563839 - Field 3676432449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Type Helper Test PDA - Field Language Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3142563839 - Field 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Type Helper Test PDA - Field Phone No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3142563839 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Type Helper Test PDA - Field Primary Key - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2462330022 - Method 3274389988 - NamedType 3667724807" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invalid API Endpoint Url.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -242,6 +267,66 @@
           <source>API Username</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Integration Setup PDA - Control API Username - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type Helper Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Control 450009889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Language Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Control Language ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Phone No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Control Phone No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 3504728089 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tests EvaluateDate procedure from Type Helper.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action EvaluateDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 3504728089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EvaluateDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action EvaluateDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 807071425 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tests FormatDate procedure from Type Helper.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action FormatDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 807071425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FormatDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action FormatDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 515712823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tests IsPhoneNumber procedure from Type Helper.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action IsPhoneNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 515712823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsPhoneNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action IsPhoneNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 1166179505 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tests LanguageIDToCultureName procedure from Type Helper Test.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action LanguageIDToCultureName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3142563839 - Action 1166179505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LanguageIDToCultureName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Type Helper Test PDA - Action LanguageIDToCultureName - Property Caption</note>
         </trans-unit>
       </group>
     </body>
