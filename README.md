@@ -11,3 +11,6 @@ This example introduces how Business Central improved [AL Error Handling](https:
 
 ## 003 Type Helper
 This example shows how to use standard Business Central codeunit called [Type Helper](https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/codeunit/system.reflection.type-helper).
+
+## 004 Rich Content
+This example shows how to use new native Business Central feature called [Rich Content](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-richtext-content-controls).

@@ -63,6 +63,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Integration Setup PDA - Field Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2152853014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rich Content Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rich Content Test PDA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2152853014 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rich Content Test PDA - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2152853014 - Field 3931158819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rich Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rich Content Test PDA - Field Rich Content - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3142563839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type Helper Test</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -267,6 +282,26 @@
           <source>API Username</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Integration Setup PDA - Control API Username - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2152853014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rich Content Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rich Content Test PDA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2152853014 - Control 2804915954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rich Content Editor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rich Content Test PDA - Control RichContentGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2152853014 - Control 3931158819 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rich Content field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rich Content Test PDA - Control Rich Content - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2152853014 - Control 3931158819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rich Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rich Content Test PDA - Control Rich Content - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3142563839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type Helper Test</source>
